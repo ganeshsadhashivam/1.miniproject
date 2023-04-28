@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@1&family=Andika&family=Catamaran:wght@400;500&family=Inter:wght@300&family=Kaushan+Script&family=Labrada:wght@300&family=Lato:wght@300;400&family=Montserrat:wght@200;300&family=Open+Sans:wght@300;400;500&family=PT+Sans&family=Poppins&family=Raleway:ital,wght@0,300;0,500;0,600;1,300&family=Tangerine:wght@400;700&family=Ubuntu:wght@300&family=Vollkorn&family=Work+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+
+  /* font-family: "Andika", sans-serif; */
+  /* font-family: "Catamaran", sans-serif; */
+  /* font-family: "Inter", sans-serif;
+  font-family: "Kaushan Script", cursive;
+  font-family: "Labrada", serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif; */
+  /* font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "PT Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Tangerine", cursive;
+  font-family: "Ubuntu", sans-serif;
+  font-family: "Vollkorn", serif; */
+
+  font-family: "Work Sans", sans-serif;
+}
+
+.page-container {
+  width: 100%;
+  padding: 2rem 10rem;
+  background: #ffcd9e;
+  display: flex;
+}
+
+.page-container div {
+  flex-direction: column;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.content-container h1 {
+  font-size: 3rem;
+}
+
+.content-container p {
+  width: 50%;
+}
+
+#data-sharing {
+  color: white;
+}
+
+.content-container #looks {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.content-container #email {
+  padding: 1em;
+  border: 3px solid black;
+  width: 50%;
+  border-radius: 0.5em;
+}
+
+.content-container #submit {
+  padding: 1em;
+  background: black;
+  width: 20%;
+  border-radius: 0.5em;
+  color: white;
+}
+
+.footer-container {
+  background: black;
+  color: white;
+}
+
+.footer-section {
+  display: flex;
+}
+
+.footer-section div {
+  width: 100%;
+  padding: 2em;
+  margin: 1em;
+  flex-direction: column;
+}
+.footer-section ul {
+  list-style: none;
+}
+.footer-section ul li {
+  padding: 0.5em;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+}
+
+#footer-icons {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#footer-icons i {
+  margin: 0.2em;
+  padding: 0.2rem;
+  font-size: larger;
+}
